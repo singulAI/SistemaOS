@@ -1,0 +1,15 @@
+{
+  "name": "appbus-engine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AppBus OS - Núcleo Operacional de homologação",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3",
+    "cors": "^2.8.5"
+  }
+}
